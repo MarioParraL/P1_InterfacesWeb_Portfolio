@@ -1,0 +1,152 @@
+main {
+  
+}
+
+
+header {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+body {
+    background: linear-gradient(to bottom right, #57ff97, #246f38); 
+    color: #333;
+}
+
+
+.intro {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para que resalte sobre el fondo */
+    padding: 40px 30px; /* Espaciado interno */
+    margin: 20px auto; /* Espaciado externo con margen superior e inferior */
+    width: 90%; /* Ancho del contenedor */
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Sombra suave para profundidad */
+    transition: transform 0.3s ease-in-out; /* Suavizado del movimiento al hacer hover */
+}
+
+.intro:hover {
+    transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Aumentar la sombra al hacer hover */
+}
+
+h1 {
+    font-size: auto;
+    color: #222; 
+    text-align: center; 
+    margin: 0;
+    padding: 20px;
+    font-weight: bold; 
+}
+
+h1:hover{
+    text-shadow: 2px 2px 10px rgba(255, 120, 150, 0.5); 
+}
+
+h2 {
+    font-size: 1.5em;
+    color: #07311d;
+    margin-top: 10px;
+}
+
+nav {
+    background-color: #f8f8f8;
+    text-align: center;
+    border-radius: 50px;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: fit-content; 
+    margin: auto;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+
+
+nav a {
+    text-decoration: none;
+    color: #044737;
+    font-size: 1.2em;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+
+
+nav a:hover {
+    color: #007BFF;
+    text-shadow: 2px 2px 10px rgba(255, 120, 150, 0.5); 
+    transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
+
+}
+
+.ulclass {
+    border-radius: 50px;
+    padding: 15px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Espaciado entre los elementos de la lista */
+}
+
+.ulclass li {
+    font-size: 20px;
+    padding: 10px 20px;
+    width: 80%;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: all 0.3s ease; /* Efecto de transición suave para hover */
+    box-shadow: 0 4px 8px rgba(30, 213, 121, 0.1); /* Sombra suave para un efecto sutil */
+}
+
+.ulclass li:hover {
+    background-color: #90ffae; /* Cambio de color al pasar el cursor */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada para dar el efecto de profundidad */
+}
+
+.logo {
+    width: 50px;
+    height: auto;
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+.Portada {
+    height: 200px;
+    width: 200px;
+    margin: 2%;
+    border-radius: 50%;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2); /* Sombra normal */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.Portada:hover {
+ 
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); /* Sombra más intensa al hacer hover */
+}
+
+
+
+section {
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo blanco translúcido para que resalte sobre el fondo */
+    padding: 20px 20px; /* Menos padding para hacer el rectángulo más pequeño */
+    margin: 20px 0; /* Espaciado entre secciones */
+    width: 90%;
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1); /* Sombra suave para crear un efecto de profundidad */
+    transition: all 0.3s ease-in-out; /* Efecto de transición al hacer hover */
+    margin-left: auto; /* Centrado horizontal */
+    margin-right: auto; /* Centrado horizontal */
+}
+
+section:hover{transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Aumentar la sombra al hacer hover */}
+
+
+
+
