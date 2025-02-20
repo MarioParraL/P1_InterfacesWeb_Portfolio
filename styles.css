@@ -4,15 +4,45 @@ main {
 
 
 header {
+    background-color: #ffffff; /* Fondo blanco para un contraste limpio */
     text-align: center;
-    padding: 20px;
+    padding: 7px 20px; /* Más espacio interno */
     font-family: 'Arial', sans-serif;
-    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px; /* Bordes redondeados */
+    box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); /* Sombra más pronunciada */
+    margin: 20px auto; /* Margen para centrarlo en la página */
+    width: 90%; /* El header ocupa el 80% del ancho de la página */
+
+    border: 2px solid #f0f0f0; /* Bordes sutiles para hacerlo más estructurado */
+}
+
+header h1 {
+    font-size: 2.5em; /* Título más grande */
+    color: #333333; /* Color oscuro para el texto */
+    font-weight: bold;
+    margin: 0;
+   
+    
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2); /* Sombra suave para el título */
+}
+
+header p {
+    font-size: 1.1em;
+    color: #777777; /* Color gris suave para el texto */
+    margin-top: 10px;
+    font-weight: 300; /* Texto más liviano */
+}
+
+/* Efecto hover para el header */
+header:hover {
+    
+    box-shadow: 0px 12px 20px rgba(0, 67, 10, 0.2); /* Más sombra al hacer hover */
+    transition: all 0.3s ease-in-out; /* Transición suave */
 }
 
 
 body {
-    background: linear-gradient(to bottom right, #57ff97, #246f38); 
+    background: linear-gradient(to bottom right, #b2ffb6, #246f38);    
     color: #333;
 }
 
@@ -42,7 +72,7 @@ h1 {
 }
 
 h1:hover{
-    text-shadow: 2px 2px 10px rgba(255, 120, 150, 0.5); 
+    text-shadow: 2px 2px 10px rgba(0, 87, 54, 0.5); 
 }
 
 h2 {
@@ -52,7 +82,7 @@ h2 {
 }
 
 nav {
-    background-color: #f8f8f8;
+    background-color: #b2ffb6;
     text-align: center;
     border-radius: 50px;
     padding: 15px;
@@ -78,8 +108,8 @@ nav a {
 
 
 nav a:hover {
-    color: #007BFF;
-    text-shadow: 2px 2px 10px rgba(255, 120, 150, 0.5); 
+    color: #595eff;
+    text-shadow: 2px 2px 10px rgba(6, 41, 21, 0.5); 
     transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
 
 }
@@ -101,7 +131,13 @@ nav a:hover {
     border-radius: 10px;
     margin-bottom: 20px;
     transition: all 0.3s ease; /* Efecto de transición suave para hover */
-    box-shadow: 0 4px 8px rgba(30, 213, 121, 0.1); /* Sombra suave para un efecto sutil */
+    box-shadow: 0 4px 8px rgba(30, 213, 121, 0.1); /* Sombra suave para un efecto sutil */ 
+}
+
+.ulclass li a{
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .ulclass li:hover {
@@ -146,6 +182,11 @@ section {
 
 section:hover{transform: scale(1.05); /* Agrandar ligeramente al hacer hover */
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); /* Aumentar la sombra al hacer hover */}
+
+
+
+
+
 
 
 
